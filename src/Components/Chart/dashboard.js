@@ -1,7 +1,6 @@
-
 import ReactApexChart from 'react-apexcharts';
 
-function Dashboard_first(props) {
+function Dashboard(props) {
 
     const seriesMockData = [
         {
@@ -120,4 +119,4 @@ function Dashboard_first(props) {
     );
 }
 
-export default Dashboard_first;
+export default Dashboard;

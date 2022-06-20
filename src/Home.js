@@ -2,7 +2,7 @@ import 'antd/dist/antd.css';
 import { useState } from 'react';
 
 import CpuTime from './Components/Chart/CpuTime';
-import Dashboard_first from './Components/Chart/dashboard_first';
+import Dashboard from './Components/Chart/dashboard';
 import Drawer1 from './Components/Slider/drawer';
 import OverallDrawer from './Components/Slider/OverallDrawer';
 import Overall_chart from './Components/Chart/Overall_chart';
@@ -34,7 +34,7 @@ function Home() {
     return (
         <div>
 
-            <Dashboard_first
+            <Dashboard
                 triggered={(serviceName, date) =>
                     showDrawer(serviceName, date)
                 }

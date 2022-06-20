@@ -1,13 +1,14 @@
 import { useEffect, useState } from 'react';
 import ReactApexChart from 'react-apexcharts';
-
+import { OVERALLCHART } from '../../api/api';
+    
 function Overall_chart(props) {
 
     const [valu, getvalu] = useState([]);
     const [metricNameVal, getMetricName] = useState([]);
 
     useEffect(() => {
-        fetch('https://sushma26-dev.github.io/reactproject/Total_input.json')
+        fetch(OVERALLCHART)
             .then((res) => res.json())
             .then((data) => {
                 var val = data.map((countData, i) =>
