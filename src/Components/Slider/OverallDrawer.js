@@ -7,7 +7,7 @@ function OverallDrawer (props){
   return (
     <>    
       <Drawer
-        title={<Title>Overall Information of Resource</Title>}
+        title={<Title>Overall Infn of Resource</Title>}
         size={props.size}
         // placement={props.placement}
         width={500}
