@@ -1,12 +1,13 @@
 import {  Drawer } from 'antd';
 import React from 'react';
+import { Title } from '../title/title';
 function OverallDrawer (props){
  
 
   return (
     <>    
       <Drawer
-        title="Overall Information of Resource"
+        title={<Title>Overall Information of Resource</Title>}
         size={props.size}
         // placement={props.placement}
         width={500}
