@@ -1,6 +1,5 @@
 import {  Drawer } from 'antd';
 import React from 'react';
-import '../../Cloud.css';
 function OverallDrawer (props){
  
 
@@ -14,7 +13,6 @@ function OverallDrawer (props){
         // closable={true}
         onClose={props.close}
         visible={props.visible}
-        
       >
         {props.children}
       </Drawer>
